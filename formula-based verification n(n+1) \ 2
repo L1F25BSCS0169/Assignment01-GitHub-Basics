@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n = 50;
+    int sum;
+
+    sum = n * (n + 1) / 2;
+
+    cout << "Sum of first 50 natural numbers = " << sum;
+
+    return 0;
+}
